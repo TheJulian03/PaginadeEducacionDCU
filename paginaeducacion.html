@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="estiloeducacion.css">
+    <script src="https://kit.fontawesome.com/915ef72509.js"> </script>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            
+            <b><p style="text-align:center">Registrate </p></h1></b><hr>
+        <form id="userForm">
+<br>
+            
+        <i class="fa-regular fa-user">
+            <b><label for="nombre">Nombre</label></b></i>
+            <input type="text" id="nombre" required><br>
+            
+            <i class="fa-regular fa-user">
+            <b><label for="Apellido">Apellido</label></b></i>
+            <input type="text" id="Apellido" required><br>
+             
+            <i class="fa-regular fa-envelope">
+            <b><label for="correo Electronico">Correo</label></b></i>
+            <input type="email" id="correo" required><br>
+            
+            <i class="fa-solid fa-mobile">
+            <label for="telefono">Numero de Telefono</label></i>
+            <input type="tel" id="telefono" required><br>
+
+            <i class="fa-regular fa-id-badge">
+            <b><label for="id">ID</label></i></b>
+            <input type="text" id="id" required><br>
+
+            <i class="fa-solid fa-images">
+            <label for="Subir foto">Foto</label></i>
+            <input type="file" id="foto" accept="image/*"><br>
+
+            <button type="submit" class="btn" onclick="redireccion()" >Registrar</button>
+        </form>
+        
+    </div>
+    <script src="educacion.js"></script>
+</body>
+</html>
